@@ -47,11 +47,11 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 91vh;
   min-width: auto;
   
   
-  /* height: 100vh; */
+ 
   
 }
 .card{
@@ -63,12 +63,12 @@ p{
   overflow: hidden;
   width: 30rem;
   background-color: var(--White);
-  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+ 
 }
 
 .contenido{
   padding: 2rem;
-  /* width:  100%; */
+  width:  100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,4 +90,7 @@ p{
 
 }
 
-
+.attribution{
+  text-align: center;
+  padding-bottom: 2rem;
+}
