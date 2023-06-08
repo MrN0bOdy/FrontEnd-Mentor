@@ -1,0 +1,96 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+    --fuente: 'Outfit', sans-serif;
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  text-decoration: none;
+}
+
+
+html {
+        font-size: 62.5%;
+        box-sizing: border-box; /* permite que un rem sea igual a 10px*/
+        
+}
+
+body{
+    background-color: var(--Lightgray);
+    font-family: var(--fuente);
+    font-size: 1rem;
+    
+}
+
+h1{
+  text-align: center;
+}
+p{
+  font-weight: 300;
+  color: var(--Lightgray);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+} 
+
+.contenedor{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91vh;
+  min-width: auto;
+  
+  
+ 
+  
+}
+.card{
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.5rem;
+  overflow: hidden;
+  width: 30rem;
+  background-color: var(--White);
+ 
+}
+
+.contenido{
+  padding: 2rem;
+  width:  100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+ .img{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  
+
+} 
+
+.img .imagen{
+  border-radius: 1rem;
+  
+
+}
+
+.attribution{
+  text-align: center;
+  padding-bottom: 2rem;
+}
